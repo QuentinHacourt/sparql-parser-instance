@@ -1,0 +1,41 @@
+
+		Thu Jul 24 2025
+14:55:12 OpenLink Virtuoso Universal Server
+14:55:12 Version 07.20.3237-pthreads for Linux as of Dec 20 2024 (000000)
+14:55:12 uses OpenSSL 3.0.2 15 Mar 2022
+14:55:12 uses parts of PCRE, Html Tidy
+14:55:12 SQL Optimizer enabled (max 1000 layouts)
+14:55:12 Compiler unit is timed at 0.000354 msec
+14:55:15 Checkpoint started
+14:55:15 Checkpoint finished.
+14:55:15 Roll forward started
+14:55:15 Roll forward complete
+14:55:15 PL LOG: Installing Virtuoso Conductor version 1.00.8849 (DAV)
+14:55:15 PL LOG: Installing with dependencies Virtuoso Conductor version 1.00.8849/2024-12-20 10:15 (DAV)
+14:55:16 Checkpoint started
+14:55:16 Checkpoint finished, log reused
+14:55:26 Checkpoint started
+14:55:26 Checkpoint finished, log reused
+14:55:26 PL LOG: Installation with dependencies complete
+14:55:26 Checkpoint started
+14:55:26 Checkpoint finished, log reused
+14:55:26 HTTP/WebDAV server online at 27015
+14:55:26 Server online at 1111 (pid 19)
+14:55:26 Checkpoint started
+14:55:26 Checkpoint finished, log reused
+14:55:26 Server shutdown complete
+
+		Thu Jul 24 2025
+14:55:26 OpenLink Virtuoso Universal Server
+14:55:26 Version 07.20.3237-pthreads for Linux as of Dec 20 2024 (000000)
+14:55:26 uses OpenSSL 3.0.2 15 Mar 2022
+14:55:26 uses parts of PCRE, Html Tidy
+14:55:26 Database version 3126
+14:55:26 SQL Optimizer enabled (max 1000 layouts)
+14:55:27 Compiler unit is timed at 0.000172 msec
+14:55:28 Roll forward started
+14:55:28 Roll forward complete
+14:55:30 Checkpoint started
+14:55:30 Checkpoint finished, log reused
+14:55:30 HTTP/WebDAV server online at 8890
+14:55:30 Server online at 1111 (pid 1)
