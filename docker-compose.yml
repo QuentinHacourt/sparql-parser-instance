@@ -1,32 +1,5 @@
 services:
-  triplestore:
-    image: redpencil/virtuoso:1.2.1
-    environment:
-      SPARQL_UPDATE: "true"
-      DBA_PASSWORD: "dba"
-    volumes:
-      - ./data/db:/data
-      - ./config/virtuoso/virtuoso.ini:/data/virtuoso.ini
-    restart: always
-
   database:
-    image: semtech/sparql-parser:0.0.14
-    volumes:
-      - ./config/authorization:/config
-      - ./data/authorization:/data
-    environment:
-      BACKEND_TRIPLE_STORE_URL: "http://triplestore:8890/sparql"
-    depends_on:
-      - triplestore
-    restart: always
-
-  docker-forward:
     image: madnificent/forward
     environment:
-      TARGET_HOST: database
-      TARGET_PORT: 8890
-    ports:
-      - "8080:80"
-    depends_on:
-      - database
-    restart: always
+      SOURCE_PORT: 8890
